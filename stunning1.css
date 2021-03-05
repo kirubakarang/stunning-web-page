@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body {
+    margin: 0%;
+    font-family: 'Nunito', sans-serif;
+}
+#top-bar {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 40px;
+    position: fixed;
+}
+#logo img {
+    width: 113px;
+}
+#menu-item {
+    display: flex;
+    flex-direction: row;
+}
+#menu-item p {
+    margin: 0%;
+    margin-right: 60px;
+}
+.primary-btn {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 11px;
+    background-color: #ffd8db;
+    color: #9f8eff;
+    padding: 8px 13px;
+}
+.item1:hover div {
+    width: 45px;
+    border-bottom: 3px solid #5243c0;
+}
+.item2:hover div {
+    width: 45px;
+    border-bottom: 3px solid #5243c0;
+}
+.item3:hover div {
+    width: 35px;
+    border-bottom: 3px solid #5243c0;
+}
+.item4:hover div {
+    width: 35px;
+    border-bottom: 3px solid #5243c0;
+}
+#landing-page {
+    width: 100%;
+    height: 100vh;
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+.left-part {
+    width: 50% ;
+    height: 70vh;
+    margin: 20vh 0px;
+}
+.left-part h1 {
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.give-dot {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: #5243c0 ;
+    border: 3px solid #5243c0 ;
+    position: absolute;
+    right: 430px;
+    bottom: 0;
+
+}
+.right-part {
+    width: 50% ;
+    height: 70vh;
+    margin: 20vh 0px;
+}
+.right-part img{
+    width: 550px;
+    margin-right: 0%;
+}
+.creat-account {
+    display: flex;
+}
+.secoundrbtn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 11px;
+    background-color: #5243c0;
+    color: white;
+    padding: 8px 13px; 
+    margin-right: 25px;
+}
+.creat-account img {
+    width: 50px;
+    margin-right: 7px;
+}
+.our-team {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.member {
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 4px;
+    display: flex;
+    background-color: #f9f9f9;
+    margin-bottom: 15px ;
+    align-items: center;
+    justify-content: space-between;
+}
+.member img {
+    width: 28px;
+    height: 28px;
+}
+.one-team div {
+    width: 15px;
+    border: 4px solid #fbd9da;
+    border-radius: 5px;
+}
+.two-team div {
+    width: 15px;
+    border: 4px solid #f86532;
+    border-radius: 5px;
+}
+.three-team div {
+    width: 15px;
+    border: 4px solid #9fd196;
+    border-radius: 5px;
+}
+.four-team div {
+    width: 15px;
+    border: 4px solid #f9e5b2 ;
+    border-radius: 5px;
+}
+.our-team .two-team {
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(211, 211, 211);
+    transform: scale(1.1);
+}
